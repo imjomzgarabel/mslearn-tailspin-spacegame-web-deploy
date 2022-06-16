@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "c234f128-5c43-455d-8a80-a8a924535296"
+        },
+        "name": {
+            "value": "tailspin-space-game-1998"
+        },
+        "location": {
+            "value": "East Asia"
+        },
+        "hostingPlanName": {
+            "value": "DotNetCoreSqlDb20220216222139Plan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "CORE"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|6.0"
+        }
+    }
+}
